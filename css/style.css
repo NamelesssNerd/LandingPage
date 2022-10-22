@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Paytone+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+:root {
+  --Tech--FOnt: "Paytone One", sans-serif;
+  --Font--Family: "Kanit", sans-serif;
+}
+
+.Container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(../images/assets/page_1.png);
+}
+.Container ul {
+  margin-top: 2.5%;
+  width: 35%;
+  position: absolute;
+  right: 7%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+.Container ul li {
+  font-weight: 400;
+  margin-left: 7%;
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+  font-family: var(--Font--Family);
+  cursor: pointer;
+}
+.Container .LeftCornerLight {
+  top: -7%;
+  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  overflow: hidden;
+  z-index: 999;
+}
+.Container .LeftCornerLight img {
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+.Container .RightSideArrow {
+  top: 13rem;
+  position: absolute;
+  right: -15rem;
+  height: 100vh;
+  width: 60%;
+}
+.Container .RightSideArrow img {
+  width: 100%;
+  height: 100%;
+}
+.Container .ImageDiv {
+  position: absolute;
+  margin-top: 1.5rem;
+  width: 50%;
+  height: 98vh;
+  z-index: 99;
+}
+.Container .ImageDiv img {
+  width: 100%;
+  height: 100%;
+}
+.Container #rightcorner {
+  top: -5px;
+  height: 80px;
+  right: 6px;
+  position: absolute;
+}
+.Container #page5 {
+  position: absolute;
+  top: -5rem;
+  left: -3rem;
+  height: 700px;
+  width: 450px;
+  z-index: 9;
+}
+.Container .Social {
+  position: absolute;
+  top: 50rem;
+  left: -24px;
+  display: flex;
+  height: 50px;
+  width: 140px;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 99999;
+  color: rgb(180, 159, 159);
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+.Container .Social .faas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  background-color: rgb(160, 38, 121);
+  border-radius: 50%;
+  height: 20px;
+  transform: rotate(-90deg);
+}
+.Container #Page31 {
+  width: 60px;
+  top: 5rem;
+  left: 6rem;
+  position: absolute;
+  z-index: 999999;
+}
+.Container .LiveStreaming {
+  left: 6.5rem;
+  top: 16rem;
+  font-size: 1.4rem;
+  font-family: var(--Font--Family);
+  font-weight: 300;
+  position: absolute;
+  z-index: 999999;
+  width: 100px;
+  color: white;
+}
+.Container #page12 {
+  height: 120px;
+  left: 7rem;
+  top: 25rem;
+  position: absolute;
+  z-index: 9999;
+}
+.Container #page6 {
+  width: 340px;
+  top: 3.5rem;
+  left: 25%;
+  position: absolute;
+}
+.Container #page8 {
+  position: absolute;
+  width: 600px;
+  bottom: -22rem;
+  left: 50%;
+}
+.Container #Tech {
+  position: absolute;
+  right: 24rem;
+  top: 16rem;
+  font-size: 200px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: var(--Tech--FOnt);
+  color: white;
+}
+.Container .Button {
+  top: 45rem;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: space-around;
+  right: 26rem;
+  height: 80px;
+  width: 490px;
+}
+.Container .Button button {
+  border-radius: 30px;
+  border: 1px solid rgb(226, 13, 205);
+  background: transparent;
+  color: white;
+  font-family: var(--Font--Family);
+  font-size: 1.7rem;
+  width: 36%;
+  height: 5rem;
+  cursor: pointer;
+}
+.Container p {
+  width: 400px;
+  position: absolute;
+  right: 30rem;
+  top: 65rem;
+  font-family: var(--Font--Family);
+  color: white;
+}
+.Container #future {
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 35rem;
+  right: -4rem;
+  font-family: var(--Font--Family);
+  color: white;
+}
+.Container #lovers {
+  width: 8rem;
+  letter-spacing: 0.2rem;
+  font-size: 1.6rem;
+  position: absolute;
+  top: 64rem;
+  right: 4rem;
+  font-family: var(--Font--Family);
+  color: white;
+}/*# sourceMappingURL=style.css.map */
